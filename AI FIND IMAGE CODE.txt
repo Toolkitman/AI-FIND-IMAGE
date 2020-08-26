@@ -8,7 +8,7 @@ GraphicsWindow.BackgroundColor = "LightYellow"
 GraphicsWindow.Width = 320
 GraphicsWindow.Height = 200
 GraphicsFile = "dog.bmp"
-ImageToDraw = ImageList.LoadImage( "C:\Users\Matteo\Desktop\AI FIND IMAGE" + "\" + GraphicsFile)
+ImageToDraw = ImageList.LoadImage( "C:\AI FIND IMAGE" + "\" + GraphicsFile)
 GraphicsWindow.DrawResizedImage(ImageToDraw, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
 Endif
 If Question = ("CAT") Then 
@@ -18,7 +18,7 @@ GraphicsWindow.BackgroundColor = "LightYellow"
 GraphicsWindow.Width = 320
 GraphicsWindow.Height = 200
 GraphicsFile = "cat.bmp"
-ImageToDraw = ImageList.LoadImage("C:\Users\Matteo\Desktop\AI FIND IMAGE" + "\" + GraphicsFile)
+ImageToDraw = ImageList.LoadImage("C:\AI FIND IMAGE" + "\" + GraphicsFile)
 GraphicsWindow.DrawResizedImage(ImageToDraw, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
 Endif
 If Question = ("MAN") Then 
@@ -28,7 +28,7 @@ GraphicsWindow.BackgroundColor = "LightYellow"
 GraphicsWindow.Width = 320
 GraphicsWindow.Height = 200
 GraphicsFile = "man.bmp"
-ImageToDraw = ImageList.LoadImage("C:\Users\Matteo\Desktop\AI FIND IMAGE" + "\" + GraphicsFile)
+ImageToDraw = ImageList.LoadImage("C:\AI FIND IMAGE" + "\" + GraphicsFile)
 GraphicsWindow.DrawResizedImage(ImageToDraw, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
 EndIf
 If Question = ("WOMAN") Then 
@@ -38,7 +38,7 @@ GraphicsWindow.BackgroundColor = "LightYellow"
 GraphicsWindow.Width = 320
 GraphicsWindow.Height = 200
 GraphicsFile = "woman.bmp"
-ImageToDraw = ImageList.LoadImage("C:\Users\Matteo\Desktop\AI FIND IMAGE" + "\" + GraphicsFile)
+ImageToDraw = ImageList.LoadImage("C:\AI FIND IMAGE" + "\" + GraphicsFile)
 GraphicsWindow.DrawResizedImage(ImageToDraw, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
 EndIf
 If Question = ("CHILD") Then 
@@ -48,7 +48,7 @@ GraphicsWindow.BackgroundColor = "LightYellow"
 GraphicsWindow.Width = 320
 GraphicsWindow.Height = 200
 GraphicsFile = "child.bmp"
-ImageToDraw = ImageList.LoadImage("C:\Users\Matteo\Desktop\AI FIND IMAGE" + "\" + GraphicsFile)
+ImageToDraw = ImageList.LoadImage("C:\AI FIND IMAGE" + "\" + GraphicsFile)
 GraphicsWindow.DrawResizedImage(ImageToDraw, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
 Endif
 If Question = ("HOME") Then 
@@ -58,7 +58,7 @@ GraphicsWindow.BackgroundColor = "LightYellow"
 GraphicsWindow.Width = 320
 GraphicsWindow.Height = 200
 GraphicsFile = "home.bmp"
-ImageToDraw = ImageList.LoadImage("C:\Users\Matteo\Desktop\AI FIND IMAGE" + "\" + GraphicsFile)
+ImageToDraw = ImageList.LoadImage("C:\AI FIND IMAGE" + "\" + GraphicsFile)
 GraphicsWindow.DrawResizedImage(ImageToDraw, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
 EndIf
 If Question = ("COMPUTER") Then 
@@ -68,7 +68,7 @@ GraphicsWindow.BackgroundColor = "LightYellow"
 GraphicsWindow.Width = 320
 GraphicsWindow.Height = 200
 GraphicsFile = "computer.bmp"
-ImageToDraw = ImageList.LoadImage("C:\Users\Matteo\Desktop\AI FIND IMAGE" + "\" + GraphicsFile)
+ImageToDraw = ImageList.LoadImage("C:\AI FIND IMAGE" + "\" + GraphicsFile)
 GraphicsWindow.DrawResizedImage(ImageToDraw, 0, 0, GraphicsWindow.Width, GraphicsWindow.Height)
 EndIf
 Goto A
